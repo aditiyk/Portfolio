@@ -1,0 +1,214 @@
+
+	/*
+	
+	The line-height CSS property sets the height of a line box. 
+	It's commonly used to set the distance between lines of text.
+
+	On block-level elements, it specifies the minimum height of line boxes within the element. 
+
+	NOTE:- 
+	Use a minimum value of 1.5 for line-height for main paragraph content. 
+	This will help people experiencing low vision conditions,
+	as well as people with cognitive concerns such as Dyslexia.*/
+
+img {
+
+  width: 100%;
+  height: auto;
+
+}
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+}
+header{
+	font-family: 'PlayfairDisplay-Bold';
+	background: #f5fffa url('images/blue-flower.jpg') left center no-repeat;
+  background-size: cover;
+		    /*Syntax---------->
+		    background position: values
+		    .......................
+		    left top
+			left center
+			left bottom
+			right top
+			right center
+			right bottom
+			center top
+			center center
+			center bottom*/
+	color: #fff;
+	padding-top:20px;
+	line-height:1.5;
+	padding-bottom: 20px;
+
+	
+}
+
+body{
+
+	font-family: 'PTSans', Arial, Sans-serif;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+}
+
+/*custom fonts*/
+@font-face{
+    font-family: 'PTSans';
+    src: url('PT sans/PTS55F.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'PlayfairDisplay-Bold';
+    src: url('Playfair/PlayfairDisplay-Bold.otf') format('otf');
+    font-weight: bold;
+    font-style: normal;
+}
+/*custom fonts end here*/
+
+header h1{
+	margin-left: 90px;
+	text-transform: uppercase;
+	font-size:400%;
+	color:#83c5be;
+	margin-bottom: -0.5px;
+	letter-spacing: 5px;
+	align-self: flex-start;
+	order: 1;
+}
+
+header p{
+	font-style: italic;
+	color: #83c5be;
+	margin: 0;
+  order: 3;
+	margin-left: 50px;
+	font-size: 125%;
+
+	
+
+
+}
+/*site navigation starts*/
+.site-nav{
+ margin-top:20px;
+ margin-bottom:0px;
+ padding-bottom:0px;
+ margin-left: 50px;
+ overflow: hidden;
+}
+
+.site-nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+.site-nav li{
+
+	list-style: none;
+	margin-right: 15px;
+	font-size: 111%;
+	order: 2;
+
+}
+a{
+
+	text-decoration: none;
+}
+.site-nav a{
+	display: block;
+	color: #e29578;
+	background-color: #d8e2dc;
+	padding: 20px 30px;
+}
+.site-nav a:hover{
+	background-color: #f8edeb;
+}
+/*site-navigation ends*/
+
+.content-area {
+	border-top: #fff solid 5.5px;
+	border-bottom: #fff solid 5.5px;
+	padding:50px;
+	background-color: #fff;
+	box-sizing:border-box;
+}
+.container h2{
+	font-size: 301%;
+	color: #fec5bb;
+	letter-spacing: 4px;
+}
+.container p{
+	font-size: 17px;
+}
+footer {
+	width:100%;
+
+	background-color: #d8e2dc;
+	
+	text-align: center;
+	font-size:102%;
+	
+}
+footer p{
+	padding-top:20px;
+	padding-bottom: 20px;
+	color: #006d77;
+}
+
+Skills Page:- 
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+.container{
+	background-color: #cc5500;
+	width: 100%;
+	height:  70px;	
+	
+	
+}
+
+.logo{
+	font-family: 'Amiri', serif;
+	display:  flex;
+	font-size: 20px;
+	flex-direction: row;
+}
+.logo h2{
+	margin-left:  10px ;
+	box-sizing: border-box;
+}
+.logo h1{
+	text-align:  center;
+}
+/* column layout using flexbox and grid*/
+.content-area{
+	max-width: 700px;
+	height:  400px;
+	background-color: #fff /* #343434*/;
+	display: flex;
+}
+.box-a{
+    background-color: #fff;
+    opacity: 0.3;
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.5) ;
+    margin: auto;
+
+
+}
+
+.box-b{
+	background-color: #fff;
+    opacity: 0.3;
+    box-shadow: 5px 5px 8px rgba(0,0,0,0.5) ;	
+    margin: auto;
+}
