@@ -25,10 +25,7 @@ header{
 .site-nav h1{
 	color:  #000;
 }
-.nameMsg{
-	text-transform: uppercase;
-	color:  red;
-}
+
 .list{
 	 display: flex;
      justify-content: space-evenly;

@@ -6,6 +6,7 @@ function validateForm(){
 		}
 	}catch(e){
 		document.getElementById("nameMsg").innerHTML= e;
+		
 	}
 
 }
